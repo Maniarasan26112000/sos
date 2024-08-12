@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="home" id="home">
+
+        <header>
+
+        <div class="cols">
+            <a href="#" class="logo"><i class="fas fa-untensils"></i>Scholarship</a>
+
+            <div class="inputz">
+            <input type="text" placeholder="type something">
+            <i class="fa-solid fa-magnifying-glass" id="search"></i>
+            </div>
+        </div>
+        
+        <div class="cols2">
+            <nav class="navbar">
+                    <a class="active" href="#home">home</a>
+                    <a href="#Service">Services</a>
+                    <a href="#course">course</a>
+                    <a href="#Team">Team</a>
+                    <a href="#Events">Events</a>
+                    <a href="#Register Now">Register Now</a>
+            </nav>
+    
+            <div class="icons">
+                <i class="fas fa-bars" id="menu-bars"></i>
+            </div>
+
+        </div>
+    
+        </header>
+         <!-- header section end----------------------------------------------------------- -->
+
+         <div class="imagez">
+            <div class="additional">
+            <div>
+                <button>Our Cources</button>
+            </div>
+            <div>
+                <h1>
+                    With scholar Teacher,<br>Everything is Easier
+                </h1>
+            </div>
+            <div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique soluta maxime vel
+                </p>
+            </div>
+            <div class="non">
+                <button>
+                    Request Demo
+                </button>
+                <p>Whats Scholar?</p>
+            </div>
+            </div>
+         </div>
+    
+
+    </section>
+</body>
+<script>
+    let menu = document.querySelector('#menu-bars');
+    let navbar = document.querySelector('.navbar');
+
+    menu.onclick = ()=> {
+    menu.classList.toggle('fa-times');
+    navbar.classList.toggle('active');
+
+}
+</script>
+</html>
